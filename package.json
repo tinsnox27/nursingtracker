@@ -1,0 +1,13 @@
+{
+  "name": "certification-reminder-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-contained portfolio recreation of a Google Apps Script certification reminder workflow",
+  "scripts": {
+    "demo": "node examples/run-demo.cjs",
+    "test": "node test/tracker.test.cjs && node test/demo.test.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

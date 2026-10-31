@@ -1,0 +1,17 @@
+Synthetic portfolio demo. No Google account required. No email is sent.
+Dry-run preview: {"sent":0,"previewed":7,"skipped":5,"invalid":1,"blocked":0}
+┌─────────┬──────────────────────────┬──────────────┬────────────┬────────────────┐
+│ (index) │ recipient                │ role         │ credential │ stage          │
+├─────────┼──────────────────────────┼──────────────┼────────────┼────────────────┤
+│ 0       │ 'avery@example.com'      │ 'nurse'      │ 'BLS'      │ 'SIX_MONTHS'   │
+│ 1       │ 'lead@example.com'       │ 'supervisor' │ 'BLS'      │ 'SIX_MONTHS'   │
+│ 2       │ 'blair@example.com'      │ 'nurse'      │ 'RN'       │ 'THREE_MONTHS' │
+│ 3       │ 'lead@example.com'       │ 'supervisor' │ 'RN'       │ 'THREE_MONTHS' │
+│ 4       │ 'casey@example.com'      │ 'nurse'      │ 'ACLS'     │ 'ONE_MONTH'    │
+│ 5       │ 'supervisor@example.com' │ 'supervisor' │ 'ACLS'     │ 'ONE_MONTH'    │
+│ 6       │ 'supervisor@example.com' │ 'supervisor' │ 'BLS'      │ 'THREE_MONTHS' │
+└─────────┴──────────────────────────┴──────────────┴────────────┴────────────────┘
+First simulated delivery run: {"sent":7,"previewed":0,"skipped":5,"invalid":1,"blocked":0}
+Second simulated delivery run: {"sent":0,"previewed":0,"skipped":12,"invalid":1,"blocked":0}
+Messages captured in memory: 7
+Open examples/email-preview.html for the generated message.
